@@ -1,0 +1,467 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Class-08| bootstrap</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--    Navigation part starts-->
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark p-3">
+    <div class="container">
+        <a href="#" class="navbar-brand text-danger font-weight-bolder">LearnPhp</a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav mx-auto text-center">
+                <li>
+                    <a href="#" class="nav-link active text-danger pr-4">Home</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-danger pr-4">About</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link text-danger dropdown-toggle pr-4" data-toggle="dropdown">Services</a>
+                    <ul class="dropdown-menu bg-dark text-center">
+                        <li>
+                            <a href="#" class="dropdown-item text-danger p-2"> Service1</a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item text-danger p-2"> Service1</a>
+                        </li>
+                        <li>
+                            <a href="#" class="dropdown-item text-danger p-2"> Service1</a>
+                        </li>
+                    </ul>
+                </li>
+                <li><a href="#" class="nav-link text-danger pr-4">Gallery</a></li>
+                <li><a href="#" class="nav-link text-danger pr-4">Contact</a></li>
+            </ul>
+        </div>
+
+    </div>
+</nav>
+<!--    Navigation part ends-->
+<!--    Carousel section starts-->
+<div class="carousel slide" data-ride="carousel" data-interval="1000" id="slider">
+    <ol class="carousel-indicators">
+        <li data-target="#slider" data-slide-to="0" class="2"></li>
+        <li data-target="#slider" data-slide-to="1"></li>
+        <li data-target="#slider" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/bannar-2.jpg" class="w-100 h-450" alt="">
+            <!-- Carousel caption section starts-->
+            <div class="carousel-caption my-caption">
+                <h3>
+                    This is caption heading.
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, in?
+                </p>
+                <a href="" class="btn btn-success"> Read More</a>
+            </div>
+            <!-- Carousel caption section ends-->
+        </div>
+        <div class="carousel-item">
+            <img src="images/bannar-1.jpg" class="w-100 h-450" alt="">
+            <!-- Carousel caption section starts-->
+            <div class="carousel-caption my-caption">
+                <h3>
+                    This is caption heading.
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, in?
+                </p>
+                <a href="" class="btn btn-success"> Read More</a>
+            </div>
+            <!-- Carousel caption section ends-->
+        </div>
+        <div class="carousel-item">
+            <img src="images/code.jpg" class="w-100 h-450" alt="">
+            <!-- Carousel caption section starts-->
+            <div class="carousel-caption my-caption">
+                <h3>
+                    This is caption heading.
+                </h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi, in?
+                </p>
+                <a href="" class="btn btn-success"> Read More</a>
+            </div>
+            <!-- Carousel caption section ends-->
+        </div>
+    </div>
+    <div>
+        <a href="#slider" class="carousel-control-prev" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+    </div>
+    <div>
+        <a href="#slider" class="carousel-control-next" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </div>
+</div>
+<!--   Carousel section part ends-->
+<!--  Card section part starts -->
+<section class="py-5 bg-secondary">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h2>This is a card heading.</h2>
+                            </div>
+                            <div class="card-body">
+                                <h5>This is a card body.</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores fugit
+                                    laudantium molestiae nobis? Aliquam culpa pariatur perspiciatis? Aspernatur at
+                                    eveniet ex laboriosam temporibus velit.
+                                </p>
+                                <a href="" class="btn btn-success"> Read More</a>
+
+                            </div>
+                            <div class="card-footer">
+                                <p>This is a card footer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h2>This is a card heading.</h2>
+                            </div>
+                            <div class="card-body">
+                                <h5>This is a card body.</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores fugit
+                                    laudantium molestiae nobis? Aliquam culpa pariatur perspiciatis? Aspernatur at
+                                    eveniet ex laboriosam temporibus velit.
+                                </p>
+                                <a href="" class="btn btn-success"> Read More</a>
+
+                            </div>
+                            <div class="card-footer">
+                                <p>This is a card footer.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h2>This is a card heading.</h2>
+                            </div>
+                            <div class="card-body">
+                                <h5>This is a card body.</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores fugit
+                                    laudantium molestiae nobis? Aliquam culpa pariatur perspiciatis? Aspernatur at
+                                    eveniet ex laboriosam temporibus velit.
+                                </p>
+                                <a href="" class="btn btn-success"> Read More</a>
+                            </div>
+                            <div class="card-footer">
+                                <p>This is a card footer.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--  Card section part ends -->
+<!-- Card new section starts -->
+<section class="py-5 bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h2>This is a card heading.</h2>
+                            </div>
+                            <div class="card-body">
+                                <h5>This is a card body.</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores fugit
+                                    laudantium molestiae nobis? Aliquam culpa pariatur perspiciatis? Aspernatur at
+                                    eveniet ex laboriosam temporibus velit.
+                                </p>
+                                <a href="" class="btn btn-outline-success"> Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h2>This is a card heading.</h2>
+                            </div>
+                            <div class="card-body">
+                                <h5>This is a card body.</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores fugit
+                                    laudantium molestiae nobis? Aliquam culpa pariatur perspiciatis? Aspernatur at
+                                    eveniet ex laboriosam temporibus velit.
+                                </p>
+                                <a href="" class="btn btn-outline-success"> Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-header">
+                                <h2>This is a card heading.</h2>
+                            </div>
+                            <div class="card-body">
+                                <h5>This is a card body.</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores fugit
+                                    laudantium molestiae nobis? Aliquam culpa pariatur perspiciatis? Aspernatur at
+                                    eveniet ex laboriosam temporibus velit.
+                                </p>
+                                <a href="" class="btn btn-outline-success"> Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- new card section ends -->
+<!-- Card new section starts -->
+<section class="py-5 bg-secondary">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>This is a card body.</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores fugit
+                                    laudantium molestiae nobis? Aliquam culpa pariatur perspiciatis? Aspernatur at
+                                    eveniet ex laboriosam temporibus velit.
+                                </p>
+                                <a href="" class="btn btn-outline-info btn-block"> Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>This is a card body.</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores fugit
+                                    laudantium molestiae nobis? Aliquam culpa pariatur perspiciatis? Aspernatur at
+                                    eveniet ex laboriosam temporibus velit.
+                                </p>
+                                <a href="" class="btn btn-outline-info btn-block"> Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5>This is a card body.</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam asperiores fugit
+                                    laudantium molestiae nobis? Aliquam culpa pariatur perspiciatis? Aspernatur at
+                                    eveniet ex laboriosam temporibus velit.
+                                </p>
+                                <a href="" class="btn btn-outline-info btn-block"> Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- new card section ends -->
+<!-- 3rd section card starts-->
+<section class="py-5 bg-dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card bg-secondary text-light">
+                    <div class="card-header text-center">
+                        <h3>This is a heading</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, corporis.</p>
+                        <a href="#" class="btn btn-info btn-block"> Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-secondary text-light">
+                    <div class="card-header text-center">
+                        <h3>This is a heading</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, corporis.</p>
+                        <a href="#" class="btn btn-info btn-block"> Read more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-secondary text-light">
+                    <div class="card-header text-center">
+                        <h3>This is a heading</h3>
+                    </div>
+                    <div class="card-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores, corporis.</p>
+                        <a href="#" class="btn btn-info btn-block"> Read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- 3rd section card ends-->
+<!-- 4th section card starts-->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/t-shirt.jpg" class="card-img-top h-350 img-fluid" alt="">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title"> Nike Slim Shirt</h3>
+                    <p class="card-text">
+                        <del>TK.1000</del>
+                        <span> 730</span></p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="" class="btn btn-info"> Details</a>
+                    <a href="" class="btn btn-danger float-right"> Add to cart</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/jersy.jpg" class="card-img-top h-350 img-fluid" alt="">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title"> Inter milan</h3>
+                    <p class="card-text">
+                        <del>TK.1000</del>
+                        <span> 730</span></p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="" class="btn btn-info"> Details</a>
+                    <a href="" class="btn btn-danger float-right"> Add to cart</a>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="images/mu.jpg" class="card-img-top h-350 img-fluid" alt="">
+                </div>
+                <div class="card-body">
+                    <h3 class="card-title"> Manchester United</h3>
+                    <p class="card-text">
+                        <del>TK.1000</del>
+                        <span> 730</span></p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="" class="btn btn-info"> Details</a>
+                    <a href="" class="btn btn-danger float-right"> Add to cart</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+<!-- 4th section card ends-->
+<!-- Bisso section starts-->
+<section class="py-5" class="bg-light">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <img src="images/plane.jpg" class="img-fluid w-100" alt="">
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h3>Riding in plane's wheel from Netherlands to America</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur debitis dolor eaque error
+                        fugiat id impedit inventore, minus possimus quas repellendus sint sit tempore tenetur?</p>
+                </div>
+                <div class="card-footer">
+                    <p>১ ঘণ্টা আগে</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="images/high.jpg"  class="img-fluid w-100 " alt=""/>
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body pt-0 m-0 ml-0">
+                                <h6 class="card-title font-weight-bold">
+                                    Orders from high commision of america to leave the country.
+                                </h6>
+                                <p class="card-text ">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum illum, inventore maxime
+                                        nesciunt porro quas temporibus voluptatem voluptates. Alias, beatae excepturi expedita illum
+                                        ipsa repudiandae?
+                                </p>
+                                <p class="text-muted">১ ঘণ্টা আগে</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="images/high.jpg"  class="img-fluid w-100 " alt=""/>
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h6 class="card-title font-weight-bold">
+                                    Orders from high commision of america to leave the country.
+                                </h6>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum illum, inventore maxime
+                                    nesciunt porro quas temporibus voluptatem voluptates. Alias, beatae excepturi expedita illum
+                                    ipsa repudiandae?
+                                </p>
+                                <p class="text-muted">১ ঘণ্টা আগে</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="row">
+                        <div class="col-4">
+                            <img src="images/high.jpg"  class="img-fluid w-100 " alt=""/>
+                        </div>
+                        <div class="col-8">
+                            <div class="card-body">
+                                <h6 class="card-title font-weight-bold">
+                                    Orders from high commision of america to leave the country.
+                                </h6>
+                                <p class="card-text">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorum illum, inventore maxime
+                                    nesciunt porro quas temporibus voluptatem voluptates. Alias, beatae excepturi expedita illum
+                                    ipsa repudiandae?
+                                </p>
+                                <p class="text-muted">১ ঘণ্টা আগে</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Bisso section ends-->
+
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/bootstrap.js"></script>
+</body>
+</html>
