@@ -11,85 +11,187 @@
 </head>
 <body>
 <!--sub-header part starts-->
-    <div class="sub-header py-2">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                   <ul class="nav">
-                       <li class="pr-2">
-                           <a href="#" class="text-secondary"><i class="fas fa-phone-alt"></i>+8809612342486</a>
-                       </li>
-                       <li>
-                           <a href="#" class="text-secondary"><i class="far fa-envelope"></i>info@bitm.org.bd</a>
-                       </li>
-                   </ul>
-                </div>
-                <div class="col-md-4"></div>
-                <div class="col-md-2">
-                   <ul class="nav">
-                       <li>
-                           <a href="#" class="float-right text-secondary" class="nav-link"><i class="fas fa-user-lock pr-2"></i>Sign In</a>
-                       </li>
-                   </ul>
+<div class="sub-header py-2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <ul class="nav">
+                    <li class="pr-2">
+                        <a href="#" class="text-secondary"><i class="fas fa-phone-alt"></i>+8809612342486</a>
+                    </li>
+                    <li>
+                        <a href="#" class="text-secondary"><i class="far fa-envelope"></i>info@bitm.org.bd</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-4"></div>
+            <div class="col-md-2">
+                <ul class="nav">
+                    <li>
+                        <a href="#mymodal" class="float-right text-secondary nav-link btn btn btn-outline-info" data-toggle="modal">
+                            <i class="fas fa-user-lock pr-2"></i>Sign In
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--sub-header part ends-->
+<!--Nagivation part starts-->
+<nav class="navbar navbar-expand-sm navbar-dark ">
+    <div class="container">
+        <a href="#" class="nav-brand">
+            <img src="images/brand-logo.jpg" alt="brand-logo"/>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav mx-auto font-weight-bold">
+                <li>
+                    <a href="#" class="nav-link text-dark active text-uppercase">Home</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link text-dark text-uppercase" data-toggle="dropdown">All courses</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="" class="dropdown-item text-uppercase">Training</a></li>
+                        <li><a href="" class="dropdown-item text-uppercase">Workshop</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-dark text-uppercase">Seip</a>
+                </li>
+                <li>
+                    <a href="#" class="nav-link text-dark text-uppercase">Assessment</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="nav-link text-dark text-uppercase" data-toggle="dropdown">About us</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="" class="dropdown-item text-uppercase">Training</a></li>
+                        <li class="dropdown">
+                            <a href="" class="dropdown-item text-uppercase" data-toggle="dropdown">Workshop</a>
+                            <ul class="dropdown-menu">
+                                <li>
+                                    <a href="" class="dropdown-item text-uppercase">Training</a>
+                                </li>
+                                <li>
+                                    <a href="" class="dropdown-item text-uppercase">Workshop</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="" class="dropdown-item text-uppercase">Workshop</a></li>
+                        <li><a href="" class="dropdown-item text-uppercase">Workshop</a></li>
+                        <li><a href="" class="dropdown-item text-uppercase">Workshop</a></li>
+                        <li><a href="" class="dropdown-item text-uppercase">Workshop</a></li>
+                    </ul>
+                </li>
+            </ul>
+            <a href="#"><img src="images/basis.jpg" alt=""/></a>
+        </div>
+    </div>
+</nav>
+<!--Nagivation part starts-->
+<!--Navtabs starts -->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="nav nav-tabs bg-secondary nav-justified text-light">
+                    <li class="nav-item">
+                        <a href="#home" data-toggle="tab" class="nav-link active">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#about" data-toggle="tab" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" data-toggle="tab" class="nav-link">contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio" data-toggle="tab" class="nav-link">Portfolio</a>
+                    </li>
+                </ul>
+                <div class="tab-content text-center">
+                    <div class="tab-pane fade show active" id="home">
+                        <div class="card card-body">
+                            <h1>This is tab one heading</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, maiores.</p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="about">
+                        <div class="card card-body">
+                            <h1>This is tab two heading</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, maiores.</p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="contact">
+                        <div class="card card-body">
+                            <h1>This is tab three heading</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, maiores.</p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="portfolio">
+                        <div class="card card-body">
+                            <h1>This is tab four heading</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, maiores.</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-<!--sub-header part ends-->
-<!--Nagivation part starts-->
-    <nav class="navbar navbar-expand-sm navbar-dark ">
-        <div class="container">
-            <a href="#" class="nav-brand">
-                <img src="images/brand-logo.jpg" alt="brand-logo"/>
-            </a>
-            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="menu">
-                <ul class="navbar-nav mx-auto font-weight-bold">
-                    <li>
-                        <a href="#" class="nav-link text-dark active text-uppercase">Home</a>
+</section>
+<!--Navtabs ends-->
+<!--Navpills starts -->
+<section class="py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <ul class="nav nav-pills bg-secondary nav-justified text-light">
+                    <li class="nav-item">
+                        <a href="#home1" data-toggle="pill" class="nav-link active">Home</a>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="nav-link text-dark text-uppercase" data-toggle="dropdown">All courses</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="" class="dropdown-item text-uppercase">Training</a></li>
-                            <li><a href="" class="dropdown-item text-uppercase">Workshop</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a href="#about1" data-toggle="pill" class="nav-link">About</a>
                     </li>
-                    <li>
-                        <a href="#" class="nav-link text-dark text-uppercase">Seip</a>
+                    <li class="nav-item">
+                        <a href="#contact1" data-toggle="pill" class="nav-link">contact</a>
                     </li>
-                    <li>
-                        <a href="#" class="nav-link text-dark text-uppercase">Assessment</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="nav-link text-dark text-uppercase" data-toggle="dropdown">About us</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="" class="dropdown-item text-uppercase">Training</a></li>
-                            <li class="dropdown">
-                                <a href="" class="dropdown-item text-uppercase"data-toggle="dropdown">Workshop</a>
-                                <ul class="dropdown-menu">
-                                    <li>
-                                        <a href="" class="dropdown-item text-uppercase">Training</a>
-                                    </li>
-                                    <li>
-                                        <a href="" class="dropdown-item text-uppercase">Workshop</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li><a href="" class="dropdown-item text-uppercase">Workshop</a></li>
-                            <li><a href="" class="dropdown-item text-uppercase">Workshop</a></li>
-                            <li><a href="" class="dropdown-item text-uppercase">Workshop</a></li>
-                            <li><a href="" class="dropdown-item text-uppercase">Workshop</a></li>
-                        </ul>
+                    <li class="nav-item">
+                        <a href="#portfolio1" data-toggle="pill" class="nav-link">Portfolio</a>
                     </li>
                 </ul>
-                <a href="#"><img src="images/basis.jpg" alt=""/></a>
+                <div class="tab-content text-center">
+                    <div class="tab-pane fade show active" id="home1">
+                        <div class="card card-body">
+                            <h1>This is tab one heading</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, maiores.</p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="about1">
+                        <div class="card card-body">
+                            <h1>This is tab two heading</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, maiores.</p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="contact1">
+                        <div class="card card-body">
+                            <h1>This is tab three heading</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, maiores.</p>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="portfolio1">
+                        <div class="card card-body">
+                            <h1>This is tab four heading</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, maiores.</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </nav>
-<!--Nagivation part starts-->
+    </div>
+</section>
+<!--Navtabs ends-->
 <!-- Bannar section starts -->
 <section>
     <div class="container">
@@ -98,7 +200,6 @@
                 <h4 class="text-center text-light">
                     724+ Regular programs |319+ Trainers | 56+ Client Organizations
                 </h4>
-                
             </div>
         </div>
     </div>
@@ -111,11 +212,11 @@
         <div class="row mb-5">
             <div class="col-md-3">
                 <div class="card">
-                    <img src="images/course1.jpg" class="card-img-top w-100"alt="">
+                    <img src="images/course1.jpg" class="card-img-top w-100" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Online Training on Modern JavaScript (ES6)(3rd batch)</h5>
                         <p>27 Jan - 21 Apr 2022</p>
-                        <p>Total Hours : 72</p>    
+                        <p>Total Hours : 72</p>
                     </div>
                     <div class="card-footer">
                         <a href="">TK. 17,250</a>
@@ -125,11 +226,11 @@
             </div>
             <div class="col-md-3">
                 <div class="card">
-                    <img src="images/course2.jpg" class="card-img-top w-100"alt="">
+                    <img src="images/course2.jpg" class="card-img-top w-100" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Online Training on Modern JavaScript (ES6)(3rd batch)</h5>
                         <p>27 Jan - 21 Apr 2022</p>
-                        <p>Total Hours : 72</p>    
+                        <p>Total Hours : 72</p>
                     </div>
                     <div class="card-footer">
                         <a href="">TK. 17,250</a>
@@ -139,11 +240,11 @@
             </div>
             <div class="col-md-3">
                 <div class="card">
-                    <img src="images/course3.jpg" class="card-img-top w-100"alt="">
+                    <img src="images/course3.jpg" class="card-img-top w-100" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Online Training on Modern JavaScript (ES6)(3rd batch)</h5>
                         <p>27 Jan - 21 Apr 2022</p>
-                        <p>Total Hours : 72</p>    
+                        <p>Total Hours : 72</p>
                     </div>
                     <div class="card-footer">
                         <a href="">TK. 17,250</a>
@@ -153,11 +254,11 @@
             </div>
             <div class="col-md-3">
                 <div class="card">
-                    <img src="images/course4.jpg" class="card-img-top w-100"alt="">
+                    <img src="images/course4.jpg" class="card-img-top w-100" alt="">
                     <div class="card-body">
                         <h5 class="card-title">Online Training on Modern JavaScript (ES6)(3rd batch)</h5>
                         <p>27 Jan - 21 Apr 2022</p>
-                        <p>Total Hours : 72</p>    
+                        <p>Total Hours : 72</p>
                     </div>
                     <div class="card-footer">
                         <a href="">TK. 17,250</a>
@@ -169,7 +270,52 @@
     </div>
 </section>
 <!-- Card section ends -->
+<!--New section-->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-header">
+                        <a href="#divi" data-toggle="collapse">Click ME</a>
+                    </div>
+                    <div id="div1" class="collapse show" data-parent="#bitm">
+                        <div class="card-body">
+                            <h3>This is a heading.</h3>
+                            <p>This is a paragraph.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <a href="#divi" data-toggle="collapse">Click ME</a>
+                    </div>
+                    <div id="div1" class="collapse show" data-parent="#bitm">
+                        <div class="card-body">
+                            <h3>This is a heading.</h3>
+                            <p>This is a paragraph.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!--New section-->
 
+<!--Modal section starts -->
+<section>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <buttton type="button" data-toggle="modal" data-target="#mymodal" class="btn btn btn-outline-info">click
+                    ME
+                </buttton>
+            </div>
+        </div>
+    </div>
+</section>
+<!--Modal section ends-->
 
 <!-- Footer section starts -->
 <section>
@@ -192,7 +338,7 @@
                             <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
                         </ul>
                     </div>
-                    <ul class="col-md-4">
+                    <div class="col-md-4">
                         <ul class="nav">
                             <li><a href="#"><i class="fab fa-facebook-f nav-link"></i></a></li>
                             <li><a href="#"><i class="fab fa-twitter nav-link"></i></a></li>
@@ -200,17 +346,71 @@
                             <li><a href="#"><i class="fab fa-youtube nav-link"></i></a></li>
                         </ul>
                     </div>
-                    <div class="col-md-3">
-                        <p>Copyright &copy; BITM 2022 [LE]</p>
-                    </div>
                 </div>
             </div>
+                <div class="col-md-3">
+                    <p>Copyright &copy; BITM 2022 [LE]</p>
+                </div>
         </div>
     </footer>
 </section>
 <!-- Footer section ends -->
+<div class="modal fade" id="mymodal" data-backdrop="static" data-keyboard="false">
+    <div class="modal-dialog modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4>
+                    Sign in
+                </h4>
+                <button type="button" class="close" data-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="card card-body">
+                    <div class="mx-auto">
+                        <a href="" >
+                            <i class="fab fa-3x fa-facebook-square"></i>
+                        </a>
+                        <a href="">
+                            <i class="fab  fa-3x fa-google-plus-square text-danger"></i>
+                        </a>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-12">
+                            <label class="col-form-label">Email</label>
+                            <input type="email" class="form-control" placeholder="bitm@mail.com">
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-12">
+                            <label class="col-form-label">Password</label>
+                            <input type="password" class="form-control" placeholder="password">
+                        </div>
+                    </div>
 
-    <script src="js/jquery-3.6.0.js"></script>
-    <script src="js/bootstrap.js"></script>
+                    <div class="form-group row">
+                        <div class="col-md-12">
+                            <a href="" class="float-right">forget Password?</a>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="col-md-6">
+                            <button type="submit" class="btn btn-outline-primary float-right" value="login">Submit</button>
+                        </div>
+                        <div class="col-md-6 float-left">
+                            <button type="submit" class="btn btn-outline-danger" value="reset">reset</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <p> Life is full of mysteries</p>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="js/jquery-3.6.0.js"></script>
+<script src="js/bootstrap.js"></script>
 </body>
 </html>
