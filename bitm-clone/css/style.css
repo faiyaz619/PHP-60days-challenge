@@ -18,6 +18,9 @@
     height: 450px;
 }
 
+body{
+    background-color: #F6F6F6;
+}
 /* navigation part css starts */
 .sub-header{
     background-color: #E2E2E2;
