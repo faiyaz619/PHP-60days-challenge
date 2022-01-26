@@ -21,6 +21,15 @@
 body{
     background-color: #F6F6F6;
 }
+#bannar{
+    background:url("../images/banner1.jpg");
+    padding: 150px 0;
+    margin:10px 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
 /* navigation part css starts */
 .sub-header{
     background-color: #E2E2E2;

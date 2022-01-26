@@ -10,73 +10,95 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <div class="sub-header">
+<!--sub-header part starts-->
+    <div class="sub-header py-2">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <a href="#"><i class="fas fa-phone-alt"></i>+8809612342486</a>
-                    <a href="#"><i class="far fa-envelope"></i>info@bitm.org.bd</a>
+                <div class="col-md-6">
+                   <ul class="nav">
+                       <li class="pr-2">
+                           <a href="#" class="text-secondary"><i class="fas fa-phone-alt"></i>+8809612342486</a>
+                       </li>
+                       <li>
+                           <a href="#" class="text-secondary"><i class="far fa-envelope"></i>info@bitm.org.bd</a>
+                       </li>
+                   </ul>
                 </div>
-                <div class="col-md-6"></div>
+                <div class="col-md-4"></div>
                 <div class="col-md-2">
-                    <a href="#">Sign In</a>
+                   <ul class="nav">
+                       <li>
+                           <a href="#" class="float-right text-secondary" class="nav-link"><i class="fas fa-user-lock pr-2"></i>Sign In</a>
+                       </li>
+                   </ul>
                 </div>
             </div>
         </div>
     </div>
+<!--sub-header part ends-->
+<!--Nagivation part starts-->
     <nav class="navbar navbar-expand-sm navbar-dark ">
         <div class="container">
-            <a href="#" class="nav-brand"><img src="images/brand-logo.jpg" alt="brand-logo"/></a>
-            <ul class="navbar-nav mx-auto">
-                <li>
-                    <a href="#" class="nav-link text-dark">Home</a>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="nav-link text-dark" data-toggle="dropdown">All courses</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="" class="dropdown-item">Training</a></li>
-                        <li><a href="" class="dropdown-item">Workshop</a></li>
-                    </ul>
-                </li>
-                <li>
-                    <a href="#" class="nav-link text-dark">Seip</a>
-                </li>
-                <li>
-                    <a href="#" class="nav-link text-dark">Assessment</a>
-                </li>
-                <li class="dropdown">
-                    <a href="#" class="nav-link text-dark" data-toggle="dropdown">About us</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="" class="dropdown-item">Training</a></li>
-                        <li class="dropdown">
-                            <a href="" class="dropdown-item"data-toggle="dropdown">Workshop</a>
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="" class="dropdown-item">Training</a>
-                                </li>
-                                <li>
-                                    <a href="" class="dropdown-item">Workshop</a>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><a href="" class="dropdown-item">Workshop</a></li>
-                        <li><a href="" class="dropdown-item">Workshop</a></li>
-                        <li><a href="" class="dropdown-item">Workshop</a></li>
-                        <li><a href="" class="dropdown-item">Workshop</a></li>
-                    </ul>  
-                </li>
-            </ul>
-            <a href="#"><img src="images/basis.jpg" alt=""/></a>
+            <a href="#" class="nav-brand">
+                <img src="images/brand-logo.jpg" alt="brand-logo"/>
+            </a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menu">
+                <ul class="navbar-nav mx-auto font-weight-bold">
+                    <li>
+                        <a href="#" class="nav-link text-dark active text-uppercase">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link text-dark text-uppercase" data-toggle="dropdown">All courses</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item text-uppercase">Training</a></li>
+                            <li><a href="" class="dropdown-item text-uppercase">Workshop</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-dark text-uppercase">Seip</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-dark text-uppercase">Assessment</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="nav-link text-dark text-uppercase" data-toggle="dropdown">About us</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="" class="dropdown-item text-uppercase">Training</a></li>
+                            <li class="dropdown">
+                                <a href="" class="dropdown-item text-uppercase"data-toggle="dropdown">Workshop</a>
+                                <ul class="dropdown-menu">
+                                    <li>
+                                        <a href="" class="dropdown-item text-uppercase">Training</a>
+                                    </li>
+                                    <li>
+                                        <a href="" class="dropdown-item text-uppercase">Workshop</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li><a href="" class="dropdown-item text-uppercase">Workshop</a></li>
+                            <li><a href="" class="dropdown-item text-uppercase">Workshop</a></li>
+                            <li><a href="" class="dropdown-item text-uppercase">Workshop</a></li>
+                            <li><a href="" class="dropdown-item text-uppercase">Workshop</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <a href="#"><img src="images/basis.jpg" alt=""/></a>
+            </div>
         </div>
     </nav>
+<!--Nagivation part starts-->
 <!-- Bannar section starts -->
 <section>
     <div class="container">
-        <div class="bannar">
+        <div id="bannar">
             <div class="bannar-overlay">
-                <h3>
+                <h4 class="text-center text-light">
                     724+ Regular programs |319+ Trainers | 56+ Client Organizations
-                </h3>
+                </h4>
+                
             </div>
         </div>
     </div>
@@ -96,49 +118,49 @@
                         <p>Total Hours : 72</p>    
                     </div>
                     <div class="card-footer">
-                        <p>TK. 17,250</p>
+                        <a href="">TK. 17,250</a>
                         <a href="" class="float-right">Enroll Now</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card">
-                    <img src="images/course1.jpg" class="card-img-top w-100"alt="">
+                    <img src="images/course2.jpg" class="card-img-top w-100"alt="">
                     <div class="card-body">
                         <h5 class="card-title">Online Training on Modern JavaScript (ES6)(3rd batch)</h5>
                         <p>27 Jan - 21 Apr 2022</p>
                         <p>Total Hours : 72</p>    
                     </div>
                     <div class="card-footer">
-                        <p>TK. 17,250</p>
+                        <a href="">TK. 17,250</a>
                         <a href="" class="float-right">Enroll Now</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card">
-                    <img src="images/course1.jpg" class="card-img-top w-100"alt="">
+                    <img src="images/course3.jpg" class="card-img-top w-100"alt="">
                     <div class="card-body">
                         <h5 class="card-title">Online Training on Modern JavaScript (ES6)(3rd batch)</h5>
                         <p>27 Jan - 21 Apr 2022</p>
                         <p>Total Hours : 72</p>    
                     </div>
                     <div class="card-footer">
-                        <p>TK. 17,250</p>
+                        <a href="">TK. 17,250</a>
                         <a href="" class="float-right">Enroll Now</a>
                     </div>
                 </div>
             </div>
             <div class="col-md-3">
                 <div class="card">
-                    <img src="images/course1.jpg" class="card-img-top w-100"alt="">
+                    <img src="images/course4.jpg" class="card-img-top w-100"alt="">
                     <div class="card-body">
                         <h5 class="card-title">Online Training on Modern JavaScript (ES6)(3rd batch)</h5>
                         <p>27 Jan - 21 Apr 2022</p>
                         <p>Total Hours : 72</p>    
                     </div>
                     <div class="card-footer">
-                        <p>TK. 17,250</p>
+                        <a href="">TK. 17,250</a>
                         <a href="" class="float-right">Enroll Now</a>
                     </div>
                 </div>
@@ -170,13 +192,13 @@
                             <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
                         </ul>
                     </div>
-                    <div class="col-md-4">
-                        <div class="navbar-nav navbar-expand-sm">
+                    <ul class="col-md-4">
+                        <ul class="nav">
                             <li><a href="#"><i class="fab fa-facebook-f nav-link"></i></a></li>
                             <li><a href="#"><i class="fab fa-twitter nav-link"></i></a></li>
                             <li><a href="#"><i class="fab fa-linkedin-in nav-link"></i></a></li>
                             <li><a href="#"><i class="fab fa-youtube nav-link"></i></a></li>
-                        </div>
+                        </ul>
                     </div>
                     <div class="col-md-3">
                         <p>Copyright &copy; BITM 2022 [LE]</p>
