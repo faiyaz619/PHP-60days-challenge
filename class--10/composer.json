@@ -1,0 +1,16 @@
+{
+  "name":"php-9/php-9",
+  "type": "project",
+  "description":"a new php project",
+  "Keywords": [],
+  "licence": "",
+  "require":{},
+  "require-dev":{},
+  "autoload":{
+    "psr-4":{
+      "App\\": "app//"
+    }
+
+  }
+
+}
