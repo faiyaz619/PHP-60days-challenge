@@ -1,0 +1,15 @@
+{
+  "name": "php/php",
+  "type": "project",
+  "description": "A range loop project",
+  "keywords": [],
+  "license": "",
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4":  {
+      "app\\":"app//"
+    }
+  }
+}
+
