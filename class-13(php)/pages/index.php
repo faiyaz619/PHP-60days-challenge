@@ -50,8 +50,8 @@
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label for="#" class="col-md-4">Odd / EVEN :</label>
-                                    <label for=""><input type="radio" class="col-md-4 mr-5" value="odd" name="odd_even" ending_number"/>0dd</label>
+                                    <label for="#" class="col-md-4">Odd / EVEN</label>
+                                    <label for=""><input type="radio" class="col-md-4" value="odd" name="odd_even" ending_number"/>0dd</label>
                                     <label for=""><input type="radio" class="col-md-4" value="even" name="odd_even" ending_number"/>Even</label>
                                 </div>
                                 <div class="form-group row">
