@@ -1,0 +1,13 @@
+{
+  "name": "php/php",
+  "type": "project",
+  "description": "a simple php project",
+  "license": "proprietary",
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "app\\": "app//"
+    }
+  }
+}
