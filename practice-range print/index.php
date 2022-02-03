@@ -24,7 +24,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto" >
-                <div class="card bg-dark text-light">
+                <div class="card bg-dark text-light mb-5">
                     <div class="card-header text-center"><h3>Select The Range</h3></div>
                     <div class="card-body">
                         <form action="action.php" method="post">
@@ -32,7 +32,7 @@
                             <div class="form-group row">
                                 <div class="col-md-6">
                                     <div class="form-group row">
-                                        <label class="col-md-6 col-form-label">First Number :</label>
+                                        <label class="col-md-6 col-form-label">Range First Number :</label>
                                         <div class="col-md-6">
                                         <input type="number" class="form-control" name="first_number"/>
                                         </div>
@@ -40,8 +40,8 @@
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group row">
-                                        <label class="col-md-6 col-form-label">Second Number :</label>
-                                        <div class="col-md-6">
+                                        <label class="col-md-7 col-form-label">Range Second Number :</label>
+                                        <div class="col-md-5">
                                         <input type="number" class="form-control" name="second_number"/>
                                         </div>
                                     </div>
@@ -50,9 +50,7 @@
                             <div class="form-group row">
                                 <label class="col-md-3 col-form-label">Result :</label>
                                 <div class="col-md-9">
-                                        <textarea readonly class="form-control">
-                                            <?php echo isset($result )?$result :'' ;?>
-                                        </textarea>
+                                        <textarea readonly class="form-control"><?php echo isset($result )?$result :'' ;?></textarea>
                                 </div>
                             </div>
                             <div class="form-group row">

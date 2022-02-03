@@ -13,9 +13,9 @@
 <body>
     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
         <div class="container">
-            <a href="#" class="navbar-brand">Learn Php</a>
+            <a href="index.php" class="navbar-brand">Learn Php</a>
             <ul class="navbar-nav">
-                <li><a href="#" class="nav-link"> Calculator</a></li>
+                <li><a href="string.php" class="nav-link"> String Word Count</a></li>
                 <li><a href="#" class="nav-link"> Simple calculation</a></li>
             </ul>
         </div>

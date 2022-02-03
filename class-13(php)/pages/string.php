@@ -13,9 +13,9 @@
 <body>
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
     <div class="container">
-        <a href="#" class="navbar-brand">Learn Php</a>
+        <a href="index.php" class="navbar-brand">Learn Php</a>
         <ul class="navbar-nav">
-            <li><a href="#" class="nav-link"> Calculator</a></li>
+            <li><a href="string.php" class="nav-link"> String Word Count</a></li>
             <li><a href="#" class="nav-link"> Simple calculation</a></li>
         </ul>
     </div>
@@ -32,32 +32,40 @@
                     <div class="card-body">
                         <form action="action.php" method="post">
                             <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group row">
-                                        <label for="#" class="col-md-6 col-form-label px-0">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="#" class="col-md-12 col-form-label px-0">
                                             Enter your String:
                                         </label>
-                                        <input type="text" class="form-control col-md-6 " name="given_string"/><?php echo isset($result )?$result :'' ;?>
+                                        <input type="text" class="form-control col-md-12 " name="given_string"/><?php echo isset($result )?$result :'' ;?>
                                     </div>
                                 </div>
-                                <div class="col-md-6">
-                                    <div class="form-group row">
-                                        <label for="#" class="col-md-6 col-form-label px-1">
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group ">
+                                        <label for="#" class="col-md-12 col-form-label px-1">
                                            Total Word:
                                         </label>
-                                        <input type="text" class="form-control col-md-6" name="word"/><?php echo isset($result )?$result :'' ;?>
+                                        <input type="text" class="form-control col-md-12" name="word"/><?php echo isset($result )?$result :'' ;?>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group ">
+                                        <label for="#" class="col-md-12 col-form-label px-1">
+                                            Total Character:
+                                        </label>
+                                        <input type="text" class="form-control col-md-12" name="total_char"/><?php echo isset($result )?$result :'' ;?>
                                     </div>
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="#" class="col-md-6">Odd / EVEN :</label>
-                                <input type="text" class="form-control col-md-6" name="word"/>
-                            </div>
-                            <div class="form-group row">
-                                <label for="#" class="col-md-3 col-form-label">
+                                <label for="#" class="col-md-12 col-form-label">
                                     Result :
                                 </label>
-                                <textarea type="number" class="form-control col-md-9" /><?php echo isset($result )?$result :'' ;?></textarea>
+                                <textarea type="number" class="form-control col-md-12" /><?php echo isset($result )?$result :'' ;?></textarea>
                             </div>
                             <div class="form-group row">
                                 <label class="col-md-5 col-form-label"></label>
