@@ -1,11 +1,8 @@
 <?php
+
 session_start();
-$name='BITM';
 
-$SESSION['name"]=$name;
+$name = 'BITM';
 
-
-
-
-
+$_SESSION['name'] = $name;
 

@@ -1,10 +1,10 @@
 <?php include 'header.php' ?>
-<section class="py-5" xmlns="http://www.w3.org/1999/html">
+<section class="py-5 bg-info">
     <div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto">
-                <div class="card">
-                    <div class="card-header">
+                <div class="card bg-dark text-white text-uppercase ">
+                    <div class="card-header font-weight-bolder text-center">
                       Sum of Series
                     </div>
                     <div class="card-body">

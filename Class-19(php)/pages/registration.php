@@ -1,13 +1,14 @@
 <?php include 'header.php' ?>
-<section class="py-5" xmlns="http://www.w3.org/1999/html">
+<section class="py-5 bg-info">
     <div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto">
-                <div class="card bg-dark text-white">
+                <div class="card bg-dark text-primary">
                     <div class="card-header text-center text-uppercase font-weight-bolder">
                         Registration form
                     </div>
                     <div class="card-body">
+                        <h4><?php echo isset($result)?$result:'';?></h4>
                         <form action="action.php"method="post">
                             <div class="form-group row">
                                 <label for="" class="col-md-3">Full Name</label>
@@ -27,17 +28,17 @@
                                         <input type="number" required class="form-control" name="phone">
                                     </div>
                                 </div>
-                            <div class="form-group row">
-                                <label for="" class="col-md-3">Subject</label>
-                                <div class="col-md-9">
-                                   <label><input type="checkbox" name="subject[]" value="Bangla">Bangla</label>
-                                   <label><input type="checkbox" name="subject[]" value="English">English</label>
-                                   <label><input type="checkbox" name="subject[]" value="Math">Math</label>
-                                   <label><input type="checkbox" name="subject[]" value="physics">Physics</label>
-                                   <label><input type="checkbox" name="subject[]" value="chemistry">Chemistry</label>
-                                   <label><input type="checkbox" name="subject[]" value="Biology">Biology</label>
-                                </div>
-                            </div>
+<!--                            <div class="form-group row">-->
+<!--                                <label for="" class="col-md-3">Subject</label>-->
+<!--                                <div class="col-md-9">-->
+<!--                                   <label><input type="checkbox" name="subject[]" value="Bangla">Bangla</label>-->
+<!--                                   <label><input type="checkbox" name="subject[]" value="English">English</label>-->
+<!--                                   <label><input type="checkbox" name="subject[]" value="Math">Math</label>-->
+<!--                                   <label><input type="checkbox" name="subject[]" value="physics">Physics</label>-->
+<!--                                   <label><input type="checkbox" name="subject[]" value="chemistry">Chemistry</label>-->
+<!--                                   <label><input type="checkbox" name="subject[]" value="Biology">Biology</label>-->
+<!--                                </div>-->
+<!--                            </div>-->
                             <div class="form-group row">
                                 <label for="" class="col-md-3"></label>
                                 <div class="col-md-9">

@@ -12,6 +12,9 @@
 .h-450{
     height:450px;
 }
+.h-850{
+    height:850px;
+}
 .h-165{
     height:165px;
 }
@@ -34,4 +37,8 @@
 }
 .text-size-5{
     font-size: 0.5rem;
+}
+input
+{
+   background-color: #bbbbbb;
 }

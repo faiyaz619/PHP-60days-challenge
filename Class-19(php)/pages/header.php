@@ -11,13 +11,22 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
+<?php if (isset($_SESSION['id'])) { ?>
 <nav class="navbar navbar-expand-md bg-dark navbar-dark">
     <div class="container">
         <a href="index.php" class="navbar-brand">PHP project</a>
         <ul class="navbar-nav">
              <li><a href="action.php?pages=home" class="nav-link">Prime Number checker</a></li>
-            <li><a href="action.php?pages=series" class="nav-link">Series</a></li>
-            <li><a href="action.php?pages=registration" class="nav-link">Registration</a></li>
+             <li><a href="action.php?pages=series" class="nav-link">Series</a></li>
+             <li><a href="action.php?pages=registration" class="nav-link">Registration</a></li>
+             <li><a href="action.php?pages=all-data" class="nav-link">All Data</a></li>
+             <li class="dropdown">
+                <a href="action.php?pages=registration" data-toggle="dropdown" class="nav-link dropdown-toggle"><?php echo $_SESSION['name']?></a>
+                <ul class="dropdown-menu">
+                    <li><a href="action.php?pages=logout" class="dropdown-item">logout</a></li>
+                </ul>
+            </li>
         </ul>
     </div>
 </nav>
+<?php } ?>
