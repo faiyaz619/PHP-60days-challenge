@@ -1,0 +1,14 @@
+{
+  "name": "phpassestment/assestment",
+  "type": "project",
+  "description": "A simple complete project of PHP",
+  "keywords": [],
+
+  "require": {},
+  "require-dev": {},
+  "autoload": {
+    "psr-4": {
+      "App\\": "app//"
+    }
+  }
+}
